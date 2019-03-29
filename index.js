@@ -48,7 +48,7 @@ program
      
       console.log('Dir: ', path);
       const simpleGit = require('simple-git')(__dirname);
-      simpleGit.clone('git@gitlab.yunlizhihui.com:fe/react16-webpack4-antd-mobx.git', path, null, function() {
+      simpleGit.clone('act16-webpack4-antd-mobx.git', path, null, function() {
         const rmdir = require('rimraf');
         rmdir(path + '/.git', function(error){
           if (error) {
